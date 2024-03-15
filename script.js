@@ -11,6 +11,7 @@ function getCharacters(done){
 getCharacters(data => {
     data.results.forEach(personaje => {  
     const article = document.createRange().createContextualFragment(`
+    
     <article>
     <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
